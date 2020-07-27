@@ -8,7 +8,7 @@ First off I've been trying to use [EmbedIO](https://github.com/unosquare/embedio
 
 I decided to write some simple getting started tutorials to document my learning:
 
-1. [Hello from EmbedIO](./embedio1.html)
+1. [Hello from EmbedIO](./embedio/part1.html)
 
 # Who am I and what's with the name
 
