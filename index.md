@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Hello And Welcome
 
-You can use the [editor on GitHub](https://github.com/katterfelto/katterfelto.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a collection of things missing from the interwebs and probably some duplicates.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## EmbedIO
 
-### Markdown
+First off I've been trying to use [EmbedIO](https://github.com/unosquare/embedio) but they have no getting started tutorial. Add to that the code samples in their project page are code snippets, so don't compile and run without finding more code from their samples directory, the learning curve is quite steep.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I decided to write some simple getting started tutorials to document my learning:
 
-```markdown
-Syntax highlighted code block
+1. [Hello from EmbedIO](./embedio1.html)
 
-# Header 1
-## Header 2
-### Header 3
+# Who am I and what's with the name
 
-- Bulleted
-- List
+I'm Dave, from Gods Own County of Yorkshire in the UK. I started my working life as a Draftsman but went to university as a mature student and got a BSc in Computer Science. I'm now a programmer/software developer. I'm married and have a daughter, dog amd cat who all ignore me, unless they want something :)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/katterfelto/katterfelto.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My user name is taken from [Gustavus Katterfelto](https://en.wikipedia.org/wiki/Gustavus_Katterfelto) who was a Prussian conjurer, scientific lecturer, and quack; he is buried in a local Church.
