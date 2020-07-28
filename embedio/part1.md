@@ -85,7 +85,17 @@ In the `main` function we:
 
 ## Finishing Up
 
-There are some thigs to consider here. Firstly, the URL we provided to listen on is localhost when , we can't connect to our server from another PC on the network. On Windows replacing `localhost` with `+` will make the server listen on all network interfaces. Replacing `localhost` with one of your NIC IP Addresses will make the server listen on that IP Address only.
+There are some things to consider here. Firstly, the URL we provided to listen on is localhost when , we can't connect to our server from another PC on the network. On Windows replacing `localhost` with `+` will make the server listen on all network interfaces. Replacing `localhost` with one of your NIC IP Addresses will make the server listen on that IP Address only.
+
+You will notice log messages appearing in the console window. It's very helpful for testing and debugging but in production we might not want it in production. To do this we need a using statement and then to add a line of code in `CreateWebServer` before we create the `WebServer` object.
+
+``` csharp
+using Swan.Logging;
+```
+
+``` csharp
+Logger.UnregisterLogger<ConsoleLogger>();
+```
 
 The web content we are serving is very simple but at least we have something running. In the next step we will serve multiple files, intially from a local folder, then from a zip file and finally from embedded resources within our application assembly.
 

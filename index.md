@@ -12,6 +12,6 @@ I decided to write some simple getting started tutorials to document my learning
 
 # Who am I and what's with the name
 
-I'm Dave, from Gods Own County of Yorkshire in the UK. I started my working life as a Draftsman but went to university as a mature student and got a BSc in Computer Science. I'm now a programmer/software developer. I'm married and have a daughter, dog amd cat who all ignore me, unless they want something :)
+I'm Dave, from Gods Own County of Yorkshire in the UK. I started my working life as a Draftsman but went to university as a mature student and got a BSc in Computer Science. I'm now a programmer/software developer. I'm married and have a daughter, dog and cat who all ignore me, unless they want something :)
 
 My user name is taken from [Gustavus Katterfelto](https://en.wikipedia.org/wiki/Gustavus_Katterfelto) who was a Prussian conjurer, scientific lecturer, and quack; he is buried in a local Church.
