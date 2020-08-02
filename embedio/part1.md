@@ -2,7 +2,7 @@
 
 ## Overview
 
-EmbedIO is a .NET asssembly which makes it possible to host a mini webserver in your application, whether it's a console, desktop (Winforms, WPF or UWP) or Windows Service application; the later is where my interest lies. 
+[EmbedIO](https://github.com/unosquare/embedio) is a .NET asssembly which makes it possible to host a mini webserver in your application, whether it's a console, desktop (Winforms, WPF or UWP) or Windows Service application; the later is where my interest lies. 
 
 At work we have some Windows Services for which we provide Winforms based control panels that communicate with the servce using WCF. It is looking like the future of WCF is not very rosey so we are exploring alternatives, build a web based control panel into the service is one strategy we are considering.
 
@@ -82,7 +82,7 @@ And that's it, compile and run the application. It should open your favourite br
 
 ## Finishing Up
 
-There are some things to consider here. Firstly, the URL we provided to listen on is localhost, this means we can't connect to our server from another PC on the network. On Windows replacing `localhost` with `+` will make the server listen on all network interfaces. Replacing `localhost` with one of your NIC IP Addresses will make the server listen on that IP Address only.
+There are some things to consider here. Firstly, the URL we provided to listen on is localhost, this means we can't connect to our server from another PC on the network. On Windows replacing `localhost` with `+` or `*` will make the server listen on all network interfaces. Replacing `localhost` with one of your NIC IP Addresses will make the server listen on that IP Address only.
 
 You will notice log messages appearing in the console window. It's very helpful for testing and debugging but in production we might not want this to happen. To disable logging completely we need a using statement and then to add a line of code in `CreateWebServer` before we create the `WebServer` object.
 
