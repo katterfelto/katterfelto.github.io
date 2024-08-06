@@ -1,0 +1,27 @@
+site_name: Katterfelto
+site_url: https://katterfelto.github.io/
+site_author: Dave Moor
+site_description: >-
+  Musings of a Yorkshire Programmer
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2024 Dave Moor
+
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+      
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/katterfelto
+    - icon: fontawesome/brands/mastodon
+      link: https://hachyderm.io/@katterfelto
