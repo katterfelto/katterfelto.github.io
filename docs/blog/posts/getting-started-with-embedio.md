@@ -17,7 +17,7 @@ This is my attempt at compiling a working getting started tutorial.
 
 ## Overview
 
-[EmbedIO](https://github.com/unosquare/embedio) is a .NET asssembly which makes it possible to host a mini webserver in your application, whether it's a console, desktop (Winforms, WPF or UWP) or a Windows Service application; the later is where my interest lies. 
+[EmbedIO](https://github.com/unosquare/embedio) is a .NET assembly which makes it possible to host a mini webserver in your application, whether it's a console, desktop (Winforms, WPF or UWP) or a Windows Service application; the later is where my interest lies. 
 
 At work we have some Windows Services for which we provide Winforms based control panels that communicate with the servce using WCF. It is looking like the future of WCF is not very rosey so we are exploring alternatives, build a web based control panel into the service is one strategy we are considering.
 
@@ -114,7 +114,7 @@ using Swan.Logging;
 Logger.UnregisterLogger<ConsoleLogger>();
 ```
 
-The web content we are serving is very simple but at least we have something running. In the next step we will serve multiple files, intially from a local folder, then from a zip file and finally from embedded resources within our application assembly.
+The web content we are serving is very simple but at least we have something running. In the next step we would be to serve multiple files, intially from a local folder, then from a zip file and finally from embedded resources within our application assembly.
 
 ## Finally
 

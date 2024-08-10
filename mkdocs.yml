@@ -7,6 +7,10 @@ site_description: >-
 # Copyright
 copyright: Copyright &copy; 2020 - 2024 Dave Moor
 
+# Configuration
+theme:
+  name: material
+
 # Plugins
 plugins:
   - blog
@@ -25,3 +29,11 @@ extra:
       link: https://github.com/katterfelto
     - icon: fontawesome/brands/mastodon
       link: https://hachyderm.io/@katterfelto
+
+# Page tree
+nav:
+  - Home: index.md
+  - Employment: employment.md
+  - Projects: projects.md
+  - Blog:
+    - blog/index.md
