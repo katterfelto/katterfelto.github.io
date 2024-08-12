@@ -17,7 +17,7 @@ I am not ready to open the repository to public access, but the documentation wi
 
 [![github repo](https://img.shields.io/badge/github-repository-blue?style=plastic&style=for-the-badge&logo=Github&logoColor=white)](https://github.com/katterfelto/MantisBTMailTask) [![github repo](https://img.shields.io/badge/.NET_core-v3.1-green?style=plastic)](https://dotnet.microsoft.com/)
 
-At work we use the [Mantis Bug Tracking](https://mantisbt.org/) system, self hosted on a windows PC. One of the main issues we encountered when initially setting it up was mail delivery. This was due to our lack of experience setting up php io work with IIS, we initially solved the problem with this windows service. When Microsoft removed the ability to easily configure an `SMTP` server in Exchange 365, this service was adjusted to use the Graph QL interface to send the emails.
+At work we use the [Mantis Bug Tracking](https://mantisbt.org/) system, self hosted on a windows PC. One of the main issues we encountered when initially setting it up was mail delivery. This was due to our lack of experience setting up php io work with IIS, we initially solved the problem with this windows service. When Microsoft removed the ability to easily configure an `SMTP` server in Exchange 365, this service was adjusted to use the GraphQL interface to send the emails.
 
 Mantis has a database table which buffers the outgoing emails until they are sent. If no email delivery client is configured the contents of this table grows unless the email subsystem is disabled. If not processed this table also swallows important emails such as password reset requests.
 
